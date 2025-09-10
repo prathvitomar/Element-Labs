@@ -166,7 +166,7 @@ function ContactForm() {
                       <option value='Specialist'>Specialist</option>
                     </select>
                   </div>
-                  <div className='w-full'>
+                  {/* <div className='w-full'>
                     <label htmlFor='budget'>Project budget</label>
                     <select
                       className='w-full mt-2 text-base px-4 rounded-full py-2.5 border transition-all duration-500 dark:text-white border-solid dark:border-white/20 focus:outline-0 dark:bg-black/40'
@@ -178,7 +178,7 @@ function ContactForm() {
                       <option value='$10000'>$10,000</option>
                       <option value='$50500'>$50,500</option>
                     </select>
-                  </div>
+                  </div> */}
                 </div>
                 <div className='w-full'>
                   <label htmlFor='message'>Message</label>

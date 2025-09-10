@@ -61,31 +61,31 @@ const brandList: brand[] = [
 const innovationList: innovation[] = [
   {
     image: '/images/home/innovation/brand.svg',
-    title: 'Lab\nTesting',
+    title: 'Lab Testing - \n Soil, Aggregate, Bitumen, Emulsion, Steel and many more.',
     bg_color: 'bg-purple/20',
     txt_color: 'text-purple',
   },
   {
     image: '/images/home/innovation/digitalmarketing.svg',
-    title: 'Survey',
+    title: 'Survey - \n Auto-Level, Total Station, DGPS and Drone Survey and many more.',
     bg_color: 'bg-blue/20',
     txt_color: 'text-blue',
   },
   {
     image: '/images/home/innovation/uiux.svg',
-    title: 'DPR\nPreparation',
+    title: 'DPR Preparation - \n Structure, Highway, Bridge, Water Supply and many more.',
     bg_color: 'bg-orange/20',
     txt_color: 'text-orange',
   },
   {
     image: '/images/home/innovation/analitics.svg',
-    title: 'Interior &\nExterior Planning',
+    title: 'Interior & Exterior Planning - \n Residential, Commercial, Institutional, Walkthrough and many more.',
     bg_color: 'bg-green/20',
     txt_color: 'text-green',
   },
   {
     image: '/images/home/innovation/webdevp.svg',
-    title: 'Third Party\nInspection',
+    title: 'Third Party Inspection - \n Quality, Quantity, Weightment and many more.',
     bg_color: 'bg-pink/20',
     txt_color: 'text-pink',
   },

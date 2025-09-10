@@ -26,9 +26,9 @@ function CustomerStories() {
                       "Element Lab’s expertise transformed my vision into success!”
                     </h4>
                     <div className='flex flex-col gap-1'>
-                      <p className='text-white font-medium'>Kabir Shah</p>
+                      <p className='text-white font-medium'>Rahul Agrawal</p>
                       <p className='text-white/60 text-sm font-medium'>
-                        Founder of Chipsland
+                        Founder of Infinity Solutions
                       </p>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ function CustomerStories() {
                   </div>
                   <div className='flex flex-col gap-1'>
                     <h2 className='text-7xl font-medium dark:text-dark_black'>
-                      91%
+                      97%
                     </h2>
                     <h4 className='dark:text-dark_black'>
                       Clients recommend our civil engineering services.”
@@ -83,9 +83,9 @@ function CustomerStories() {
                     </h2>
                   </div>
                   <div className='flex flex-col gap-1'>
-                    <p className='font-medium'>Kabir Shah</p>
+                    <p className='font-medium'>Rahul Agrawal</p>
                     <p className='text-dark_black/60 dark:text-white/60 text-sm font-medium'>
-                      Founder of Chipsland
+                      Founder of Infinity Solutions
                     </p>
                   </div>
                 </div>

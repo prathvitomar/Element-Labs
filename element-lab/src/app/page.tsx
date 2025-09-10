@@ -24,7 +24,7 @@ export default function Home() {
       {/* ---------------------Hero section Ends-----------------  */}
 
       {/* ---------------------Brand logo section Starts-----------------  */}
-      <Brand />
+      {/* <Brand /> */}
       {/* ---------------------Brand logo section Ends-----------------  */}
 
       {/* ---------------------Web result section Starts-----------------  */}
@@ -48,7 +48,7 @@ export default function Home() {
       {/* ---------------------Customer Stories section Ends-----------------  */}
 
       {/* ---------------------Subscription section Starts-----------------  */}
-      <Subscription />
+      {/* <Subscription /> */}
       {/* ---------------------Subscription section Ends-----------------  */}
 
       {/* ---------------------Faq section Starts-----------------  */}

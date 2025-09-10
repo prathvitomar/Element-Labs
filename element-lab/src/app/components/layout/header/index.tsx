@@ -60,7 +60,7 @@ const Header = () => {
               </ul>
             </div>
             <div className='flex items-center gap-1 xl:gap-4'>
-              {/* ---------------------SignUp SignIn Button-----------------  */}
+              {/* ---------------------SignUp SignIn Button----------------- 
               {user?.user || session?.user ? (
                 <div className='hidden lg:flex gap-4'>
                   <button
@@ -96,7 +96,7 @@ const Header = () => {
                     Sign Up
                   </Link>
                 </div>
-              )}
+              )} */}
 
               {/* ---------------------Light/Dark Mode button-------------------- */}
               <ThemeToggler />

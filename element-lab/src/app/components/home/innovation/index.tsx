@@ -40,9 +40,9 @@ function Innovation() {
                 {...bottomAnimation(1)}
                 className='max-w-(--breakpoint-Xsm) text-center'>
                 <h2>
-                  Where innovation meets{' '}
+                  Where Vision Meets {' '}
                   <span className='instrument-font italic font-normal dark:text-white/70'>
-                    aesthetics
+                    Precision.
                   </span>
                 </h2>
               </motion.div>

@@ -2,8 +2,8 @@ import { NextResponse } from "next/server";
 
 const footerData = {
     brand: {
-        name: "Awake",
-        tagline: "Empowering businesses with innovative solutions. Let's create something amazing together.",
+        name: "Element Labs",
+        tagline: "and Engineering Services.",
         socialLinks: [
             {
                 icon: "/images/home/footerSocialIcon/twitter.svg",
@@ -34,7 +34,7 @@ const footerData = {
             { name: "About us", url: "/#aboutus" },
             { name: "Work", url: "/#work" },
             { name: "Services", url: "/#services" },
-            { name: "Pricing", url: "/#pricing" }
+            // { name: "Pricing", url: "/#pricing" }
         ]
     },
     // otherPages: {
@@ -50,7 +50,7 @@ const footerData = {
         name:"Contact Details",
         address: "Office number 308, 3rd floor Unitech business zone, Nirvana country sector 50, Gurgaon Haryana",
         email: "hello@awake.agency",
-        phone: "0105 192 3556"
+        phone: "+91 9589977911"
     },
     copyright: "©2025 Element Labs. All Rights Reserved"
 };

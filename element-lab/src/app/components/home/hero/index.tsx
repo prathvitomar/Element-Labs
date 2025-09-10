@@ -41,10 +41,10 @@ function HeroSection() {
               className="relative flex flex-col text-center items-center gap-4"
             >
               <h1 className="font-medium w-full">
-                Engineering Services with
+                Element Labs and Engineering Services
                 <span className="instrument-font italic font-normal dark:text-white/70">
                   {" "}
-                  Element Labs
+                  Driven with Precision       
                 </span>
               </h1>
               <p className="max-w-38 text-dark_black/60 dark:text-white/60">
