@@ -12,7 +12,7 @@ import Subscription from "./components/home/subscription";
 import WebResult from "./components/home/web-result";
 
 export const metadata: Metadata = {
-    title: "Home | Awake Agency",
+    title: "Element Labs",
 };
 
 
@@ -36,7 +36,7 @@ export default function Home() {
       {/* ---------------------Innovation section Ends-----------------  */}
 
       {/* ---------------------Online presence section Starts-----------------  */}
-      <OnlinePresence />
+      {/* <OnlinePresence /> */}
       {/* ---------------------Online presence section Ends-----------------  */}
 
       {/* ---------------------Creative mind section Starts-----------------  */}
@@ -56,7 +56,7 @@ export default function Home() {
       {/* ---------------------Faq section Ends-----------------  */}
 
       {/* ---------------------Achievements section Starts-----------------  */}
-      <Achievements />
+      {/* <Achievements /> */}
       {/* ---------------------Achievements section Ends-----------------  */}
 
       {/* ---------------------Solutions section Starts-----------------  */}

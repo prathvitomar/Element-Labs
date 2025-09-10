@@ -61,31 +61,31 @@ const brandList: brand[] = [
 const innovationList: innovation[] = [
   {
     image: '/images/home/innovation/brand.svg',
-    title: 'Brand\nStrategy',
+    title: 'Lab\nTesting',
     bg_color: 'bg-purple/20',
     txt_color: 'text-purple',
   },
   {
     image: '/images/home/innovation/digitalmarketing.svg',
-    title: 'Digital\nMarketing',
+    title: 'Survey',
     bg_color: 'bg-blue/20',
     txt_color: 'text-blue',
   },
   {
     image: '/images/home/innovation/uiux.svg',
-    title: 'UI/UX\nDesign',
+    title: 'DPR\nPreparation',
     bg_color: 'bg-orange/20',
     txt_color: 'text-orange',
   },
   {
     image: '/images/home/innovation/analitics.svg',
-    title: 'Analytics &\nReporting',
+    title: 'Interior &\nExterior Planning',
     bg_color: 'bg-green/20',
     txt_color: 'text-green',
   },
   {
     image: '/images/home/innovation/webdevp.svg',
-    title: 'Web\nDevelopment',
+    title: 'Third Party\nInspection',
     bg_color: 'bg-pink/20',
     txt_color: 'text-pink',
   },
@@ -211,7 +211,7 @@ const startupPlanList: startupPlan[] = [
 
 const faqList: faq[] = [
   {
-    faq_que: 'What services does Awake Agency offer?',
+    faq_que: 'What services does Element Lab offer?',
     faq_ans:
       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
   },
@@ -221,7 +221,7 @@ const faqList: faq[] = [
       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
   },
   {
-    faq_que: 'How is pricing structured at Awake Agency?',
+    faq_que: 'How is pricing structured at Element Lab?',
     faq_ans:
       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
   },

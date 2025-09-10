@@ -37,22 +37,22 @@ const footerData = {
             { name: "Pricing", url: "/#pricing" }
         ]
     },
-    otherPages: {
-        name: "Other Pages",
-        links: [
-            { name: "Error 404", url: "/not-found" },
-            { name: "Terms & Conditions", url: "/terms-and-conditions" },
-            { name: "Privacy Policy", url: "/privacy-policy" },
-            { name: "Documentation", url: "/documentation" }
-        ]
-    },
+    // otherPages: {
+    //     name: "Other Pages",
+    //     links: [
+    //         { name: "Error 404", url: "/not-found" },
+    //         { name: "Terms & Conditions", url: "/terms-and-conditions" },
+    //         { name: "Privacy Policy", url: "/privacy-policy" },
+    //         { name: "Documentation", url: "/documentation" }
+    //     ]
+    // },
     contactDetails: {
         name:"Contact Details",
-        address: "81 Rivington Street London EC2A 3AY",
+        address: "Office number 308, 3rd floor Unitech business zone, Nirvana country sector 50, Gurgaon Haryana",
         email: "hello@awake.agency",
         phone: "0105 192 3556"
     },
-    copyright: "©2025 Awake. All Rights Reserved"
+    copyright: "©2025 Element Labs. All Rights Reserved"
 };
 
 export const GET = async () => {

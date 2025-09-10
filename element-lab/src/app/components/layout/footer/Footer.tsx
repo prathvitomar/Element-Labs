@@ -55,7 +55,7 @@ const Footer = () => {
               })}
             </div>
           </div>
-          <div className='grid sm:grid-cols-3 gap-6'>
+          <div className='grid sm:grid-cols-2 gap-6'>
             <div className='flex flex-col gap-4'>
               <p className='font-medium'>{footerData?.sitemap?.name}</p>
               <ul className='flex flex-col gap-3'>
@@ -70,7 +70,7 @@ const Footer = () => {
                 })}
               </ul>
             </div>
-            <div className='flex flex-col gap-4'>
+            {/* <div className='flex flex-col gap-4'>
               <p className='font-medium'>{footerData?.otherPages?.name}</p>
               <ul className='flex flex-col gap-3'>
                 {footerData?.otherPages?.links.map((item:any, index:any) => {
@@ -83,7 +83,7 @@ const Footer = () => {
                   )
                 })}
               </ul>
-            </div>
+            </div> */}
             <div className='flex flex-col gap-4'>
               <p className='font-medium'>{footerData?.contactDetails?.name}</p>
               <p className='text-dark_black/60 dark:text-white/60'>
