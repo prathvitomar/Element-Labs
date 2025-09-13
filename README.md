@@ -1,7 +1,14 @@
-<img width="1343" height="638" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/2ae9ee79-fe1c-46dc-badb-dd01c2be578c" /># 
-🌟 Element Labs – Engineering Services  
+<h1 align="center" style="font-size: 3.2rem; font-weight: bold;">
+  🌟 Element Labs – Engineering Services 🌟
+</h1>
 
+<p align="center">
+  <a href="https://element-labs.vercel.app/" target="_blank">
+    🔗 <b>Visit Live Website</b> – <i>element-labs.vercel.app</i>
+  </a>
+</p>
 
+<img width="1343" height="638" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/2ae9ee79-fe1c-46dc-badb-dd01c2be578c" />
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js) 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) 
@@ -12,7 +19,6 @@
 
 🚀 **Element Labs Engineering Services** is a modern web platform that showcases our expertise in **construction** and **design solutions**. Built with **Next.js**, **React**, and **TailwindCSS**, the website offers a smooth, responsive, and performance-focused experience.  
 
-🔗 **Live Website:** [element-labs.vercel.app](https://element-labs.vercel.app/)  
 
 ---
 
@@ -49,20 +55,11 @@ Deployment: Vercel
 Clone the repository and install dependencies:
 
 git clone https://github.com/your-username/Element-Labs.git
-cd Element-Labs
+cd element-lab
 npm install
-
-Run the development server:
-npm run dev
+Run the development server: npm run dev
 
 
 Now open http://localhost:3000 in your browser 🚀
 
-
-👥 Contributors : https://github.com/prathvitomar 
-
-Element Labs Team – Engineering Services
-
-📜 License
-
-This project is licensed under the MIT License – free to use and modify.
+📜 License : This project is licensed under the MIT License – free to use and modify.
