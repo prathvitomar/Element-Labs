@@ -49,7 +49,7 @@ const footerData = {
     contactDetails: {
         name:"Contact Details",
         address: "Office number 308, 3rd floor Unitech business zone, Nirvana country sector 50, Gurgaon Haryana",
-        email: "kartik.shukla@elementlabs.in",
+        email: "sarang.sharma@elementlabs.in",
         phone: "+91 9589977911"
     },
     copyright: "©2025 Element Labs. All Rights Reserved"

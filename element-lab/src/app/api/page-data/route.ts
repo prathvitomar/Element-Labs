@@ -73,7 +73,7 @@ const innovationList: innovation[] = [
   },
   {
     image: '/images/home/innovation/uiux.svg',
-    title: 'DPR Preparation - \n Structure, Highway, Bridge, Water Supply and many more.',
+    title: 'DPR Preparation - \n Estimation, Structure, Highway, Bridge, Water Supply and many more.',
     bg_color: 'bg-orange/20',
     txt_color: 'text-orange',
   },
@@ -85,7 +85,7 @@ const innovationList: innovation[] = [
   },
   {
     image: '/images/home/innovation/webdevp.svg',
-    title: 'Third Party Inspection - \n Quality, Quantity, Weightment and many more.',
+    title: 'Third Party Inspection - \n Quality, Quantity, Weightment, Paste Control, Water Proofing and many more.',
     bg_color: 'bg-pink/20',
     txt_color: 'text-pink',
   },
@@ -209,38 +209,67 @@ const startupPlanList: startupPlan[] = [
   },
 ]
 
+// const faqList: faq[] = [
+//   {
+//     faq_que: 'What services does Element Lab offer?',
+//     faq_ans:
+//       'At Element Labs, we provide end-to-end engineering services — from precise Lab Testing (Soil, Aggregate, Bitumen, Steel, and more) and advanced Survey solutions (Auto-Level, Total Station, DGPS, Drone) to detailed DPR Preparation (Highways, Bridges, Water Supply), Interior & Exterior Planning (Residential, Commercial, Institutional, Walkthroughs), and reliable Third-Party Inspections (Quality, Quantity, Weightment). With innovation and accuracy, we deliver excellence across every project.',
+//   },
+//   {
+//     faq_que: 'How long does a typical project take?',
+//     faq_ans:
+//       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+//   },
+//   {
+//     faq_que: 'How is pricing structured at Element Lab?',
+//     faq_ans:
+//       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+//   },
+//   {
+//     faq_que: 'Do you offer ongoing support after project completion?',
+//     faq_ans:
+//       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+//   },
+//   {
+//     faq_que: 'How often will I receive updates on my project?',
+//     faq_ans:
+//       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+//   },
+//   {
+//     faq_que: 'How often will I receive updates on my project?',
+//     faq_ans:
+//       'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+//   },
+// ]
+
 const faqList: faq[] = [
   {
     faq_que: 'What services does Element Lab offer?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'At Element Labs, we provide end-to-end engineering services — from precise Lab Testing (Soil, Aggregate, Bitumen, Steel, and more) and advanced Survey solutions (Auto-Level, Total Station, DGPS, Drone) to detailed DPR Preparation (Highways, Bridges, Water Supply), Interior & Exterior Planning (Residential, Commercial, Institutional, Walkthroughs), and reliable Third-Party Inspections (Quality, Quantity, Weightment). With innovation and accuracy, we deliver excellence across every project.',
   },
   {
     faq_que: 'How long does a typical project take?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'The duration of a project depends on its type and scale. Smaller projects such as lab testing or surveys may be completed within a few days, while larger projects like DPR preparation, interior planning, or construction support can take several weeks to months. We provide clear timelines during the planning stage to ensure transparency and timely delivery.',
   },
   {
     faq_que: 'How is pricing structured at Element Lab?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'Our pricing is tailored to the scope of each project. Costs are influenced by project size, complexity, resources required, and timelines. We provide detailed quotations after understanding client requirements to ensure fairness and transparency, with no hidden charges.',
   },
   {
     faq_que: 'Do you offer ongoing support after project completion?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'Yes, we offer post-project support to ensure smooth implementation of our solutions. Whether it’s additional testing, inspection, or design modifications, we provide continued assistance to meet evolving client needs.',
   },
   {
     faq_que: 'How often will I receive updates on my project?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'We keep our clients regularly informed at every stage of the project. Depending on the project type, updates can be shared daily, weekly, or at major milestones. Our team ensures you are always aware of the progress and next steps.',
   },
-  {
-    faq_que: 'How often will I receive updates on my project?',
-    faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
-  },
-]
+];
+
 
 const achievementsList: achievements[] = [
   {
