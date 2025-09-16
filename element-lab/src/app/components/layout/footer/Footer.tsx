@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='flex flex-col gap-6 max-w-md'>
             <Logo />
             <p className='opacity-60'>{footerData?.brand?.tagline}</p>
-            <div className='flex gap-4'>
+            {/* <div className='flex gap-4'>
               {footerData?.brand?.socialLinks.map((item:any, index:any) => {
                 return (
                   <Link
@@ -53,7 +53,7 @@ const Footer = () => {
                   </Link>
                 )
               })}
-            </div>
+            </div> */}
           </div>
           <div className='grid sm:grid-cols-2 gap-6'>
             <div className='flex flex-col gap-4'>

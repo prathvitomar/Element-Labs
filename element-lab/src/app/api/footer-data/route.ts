@@ -32,7 +32,7 @@ const footerData = {
         links: [
             { name: "Contact us", url: "/contact" },
             { name: "About us", url: "/#aboutus" },
-            { name: "Work", url: "/#work" },
+            // { name: "Work", url: "/#work" },
             { name: "Services", url: "/#services" },
             // { name: "Pricing", url: "/#pricing" }
         ]
@@ -49,7 +49,7 @@ const footerData = {
     contactDetails: {
         name:"Contact Details",
         address: "Office number 308, 3rd floor Unitech business zone, Nirvana country sector 50, Gurgaon Haryana",
-        email: "hello@awake.agency",
+        email: "kartik.shukla@elementlabs.in",
         phone: "+91 9589977911"
     },
     copyright: "©2025 Element Labs. All Rights Reserved"
