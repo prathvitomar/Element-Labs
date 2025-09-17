@@ -48,7 +48,7 @@ const footerData = {
     // },
     contactDetails: {
         name:"Contact Details",
-        address: "Office number 308, 3rd floor Unitech business zone, Nirvana country sector 50, Gurgaon Haryana",
+        address: "Office number : 307, 308 - 3rd floor Unitech Business Zone, Nirvana Country Sector 50, Gurugram Haryana",
         email: "sarang.sharma@elementlabs.in",
         phone: "+91 9589977911"
     },

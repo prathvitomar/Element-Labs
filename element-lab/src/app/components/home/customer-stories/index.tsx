@@ -61,7 +61,7 @@ function CustomerStories() {
                     </h4>
                     <div>
                       <Image
-                        src='/images/home/customerStories/creativity_img.jpg'
+                        src='/images/home/Golden Hour at Construction Site.png'
                         alt='image'
                         width={344}
                         height={220}
