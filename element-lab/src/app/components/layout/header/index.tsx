@@ -189,7 +189,7 @@ const Header = () => {
                   </>
                 ) : (
                   <>
-                    <Link
+                    {/* <Link
                       href={'/signin'}
                       className='w-full border border-dark_black dark:border-white text-primary px-4 py-2 rounded-md hover:bg-dark_black dark:hover:bg-white hover:text-white dark:hover:text-dark_black'>
                       Sign In
@@ -198,7 +198,7 @@ const Header = () => {
                       href={'/signup'}
                       className='w-full text-white dark:text-dark_black px-4 py-2 bg-dark_black dark:bg-white rounded-md hover:opacity-90'>
                       Sign Up
-                    </Link>
+                    </Link> */}
                   </>
                 )}
               </div>

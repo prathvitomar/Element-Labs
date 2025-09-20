@@ -7,7 +7,7 @@ function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    interest: "design & branding",
+    interest: "",
     budget: "",
     message: "",
   });
@@ -24,7 +24,7 @@ function ContactForm() {
   const reset = () => {
     formData.name = "";
     formData.email = "";
-    formData.interest = "design & branding";
+    formData.interest = "";
     formData.budget = "";
     formData.message = "";
   };
@@ -33,17 +33,20 @@ function ContactForm() {
     e.preventDefault();
     setLoader(true);
 
-    fetch("https://formsubmit.co/ajax/sarang.sharma@elementlabs.in", {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({
-        name: formData.name,
-        email: formData.email,
-        interest: formData.interest,
-        budget: formData.budget,
-        message: formData.message,
-      }),
-    })
+    fetch(
+      "https://formsubmit.co/ajax/sarang.sharma@elementlabs.in,kartik.shukla@elementlabs.in",
+      {
+        method: "POST",
+        headers: { "Content-type": "application/json" },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          interest: formData.interest,
+          budget: formData.budget,
+          message: formData.message,
+        }),
+      }
+    )
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -183,12 +186,15 @@ function ContactForm() {
                         Third Party Inspection - Quality, Quantity, Weightment,
                         Paste Control, Waterproofing and more
                       </option>
+                      <option value="Others">
+                        Others
+                      </option>
                     </select>
                   </div>
 
-                  {/* <div className='w-full'>
-                    <label htmlFor='budget'>Project budget</label>
-                    <select
+                  <div className="w-full">
+                    <label htmlFor="budget">Project budget</label>
+                    {/* <select
                       className='w-full mt-2 text-base px-4 rounded-full py-2.5 border transition-all duration-500 dark:text-white border-solid dark:border-white/20 focus:outline-0 dark:bg-black/40'
                       name='budget'
                       id='budget'
@@ -197,8 +203,18 @@ function ContactForm() {
                       <option value=''>Select your budget</option>
                       <option value='$10000'>$10,000</option>
                       <option value='$50500'>$50,500</option>
-                    </select>
-                  </div> */}
+                    </select> */}
+                    <input
+                      className="w-full mt-2 rounded-full border px-5 py-3 outline-hidden transition dark:border-white/20
+                                                focus:border-dark_black/50 dark:focus:border-white/50 dark:bg-black/40"
+                      id="budget"
+                      type="budget"
+                      name="budget"
+                      value={formData.budget}
+                      onChange={handleChange}
+                      placeholder="₹ (INR)"
+                    />
+                  </div>
                 </div>
                 <div className="w-full">
                   <label htmlFor="message">Message</label>
